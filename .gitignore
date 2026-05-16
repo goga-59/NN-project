@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments created by uv/venv
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Project data and generated artifacts
+data/raw/
+data/processed/
+results/
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# Keep uv.lock in git for reproducible installs.
+
+# Logs
+*.log
+logs/

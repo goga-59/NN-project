@@ -1,0 +1,25 @@
+[project]
+name = "nn-project"
+version = "0.1.0"
+description = "TabM vs CatBoost comparison for 30-day diabetes readmission prediction."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy==2.3.5",
+    "pandas==3.0.1",
+    "scipy==1.16.3",
+    "scikit-learn==1.8.0",
+    "matplotlib==3.10.9",
+    "seaborn==0.13.2",
+    "jupyterlab==4.2.5",
+    "notebook==7.2.2",
+    "ipykernel==6.29.5",
+    "tqdm==4.66.5",
+    "catboost==1.2.10",
+    "torch==2.11.0",
+    "rtdl-revisiting-models==0.0.2",
+    "tabm==0.0.3",
+]
+
+[tool.uv]
+package = false
