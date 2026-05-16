@@ -27,9 +27,6 @@ Thumbs.db
 !.env.example
 
 # Project data and generated artifacts
-data/raw/
-data/processed/
-results/
 models/
 checkpoints/
 *.ckpt
