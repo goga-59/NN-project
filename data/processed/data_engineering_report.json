@@ -1,0 +1,39 @@
+{
+  "method": "RandomForest SHAP feature ranking + LogisticRegression 3-fold CV top-N check",
+  "encoding_checked": [
+    "onehot"
+  ],
+  "best_cv_variant": "shap_top_25_logreg_onehot",
+  "cv_evidence": {
+    "best_top_n": 25,
+    "logreg_3fold_roc_auc_mean": 0.6441152372834501,
+    "logreg_3fold_f2_mean": 0.3388602315870138
+  },
+  "selected_features": [
+    "discharge_disposition_id",
+    "number_inpatient",
+    "has_inpatient",
+    "time_in_hospital",
+    "procedures_per_day",
+    "age",
+    "age_mid",
+    "diag_3",
+    "has_prior_visits",
+    "diag_1",
+    "diag_2",
+    "medical_specialty",
+    "number_diagnoses",
+    "insulin",
+    "num_lab_procedures",
+    "total_prior_visits",
+    "diabetesMed",
+    "med_lab_ratio",
+    "num_medications",
+    "admission_source_id",
+    "admission_type_id",
+    "metformin",
+    "number_outpatient",
+    "glipizide",
+    "change"
+  ]
+}
